@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+/* FONT IMPORTS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 350vh;
+    scroll-behavior: smooth;
+}
+.service-body {
+    margin: 0px;
+    height: 265vh;
+    scroll-behavior: smooth;
+}
+.contact-body {
+    margin: 0px;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.owner-body {
+    margin: 0px;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* MAIN STYLES */
+
+.underline-01 {
+    text-decoration: underline solid black;
+}
+.underline-02 {
+    text-decoration: underline solid black;
+}
+.underline-03 {
+    text-decoration: underline solid black;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-family: "Lato";
+}
+.about-header {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin-top: 55vh;
+}
+.contact-header {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+.top-header {
+    font-size: 40px;
+    font-family: "Lato";
+    color: #4B6F44;
+}
+.hero-image-header {
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-text {
+    color: white;
+    font-size: 21px;
+}
+.review-header {
+    margin-top: 70vh;
+}
+.review-text {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 80vh;
+    font-weight: bold;
+}
+.service-text {
+    font-family: "Lato";
+}
+
+/* TEXT STYLES */
+
+nav {
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: #87A96B;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    font-family: "Lato";
+    font-style: bold;
+    font-size: 16px;
+}
+.navbar li {
+    float: left;
+}
+
+/* NAVBAR STYLES */
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* WRAPPER */
+
+.wrapper-secondary {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* WRAPPER SECONDARY */
+
+.banner-area {
+    background-image: url(images/pexels-ron-lach-9146381.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 113px;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+}
+.banner-area-services {
+    background-image: url(images/pexels-ron-lach-9146381.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 113px;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+}
+
+/* HERO/BANNER IMAGE */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card-container {
+    margin-top: 93vh;
+    margin-bottom: 10vh;
+}
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+    font-family: "Lato";
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* CARD STYLES */
+
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80vh;
+}
+.aboutme-section {
+    width: 325px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.aboutme-section img {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.aboutme-section img {
+    width: 100%;
+    height: auto;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+}
+.aboutme-content {
+    padding: 16px;
+    font-family: "Lato";
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+}
+.aboutme-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.aboutme-content p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* ABOUT US */
+
+.banner-area-second {
+    background-image: url(images/pexels-woman.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    margin-top: 16vh;
+    font-family: "Lato";
+}
+
+
+
+/* 2ND HERO/BANNER IMAGE */
+
+.banner-area-third {
+    background-image: url(images/pexels-massaging-back.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    margin-top: 70px;
+    font-family: "Lato";
+}
+
+/* 3RD HERO/BANNER IMAGE */
+
+footer {
+    background: #87A96B;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+footer {
+    margin-top: 65vh;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Lato";
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 15px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: black;
+}
+.socials-container {
+    margin-right: 35px;
+}
+.footer-bottom {
+    background: #87A96B;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* FOOTER */
+
+.btn-read-more {
+    color: white;
+    background-color: #87A96B;
+    border-radius: 3vh;
+    text-align: center;
+    width: 31vh;
+    height: 7vh;
+    font-family: "Lato";
+    font-size: 3vh;
+    border-style: hidden;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.btn-read-more:hover {
+    box-shadow: rgba(0, 0, 0, 0.2);
+    transform: translateY(0.6vh);
+}
+.btn-read-more:active {
+    transform: scale(0.97);
+    box-shadow: none;
+}
+.btn-services {
+    color: white;
+    background-color: #87A96B;
+    border-radius: 3vh;
+    text-align: center;
+    width: 30vh;
+    height: 6vh;
+    font-family: "Lato";
+    font-size: 3vh;
+    border-style: hidden;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.btn-services:hover {
+    box-shadow: rgba(0, 0, 0, 0.2);
+    transform: translateY(0.6vh);
+}
+.btn-services:active {
+    transform: scale(0.97);
+    box-shadow: none;
+}
+
+
+/* BUTTONS */
+
+.creative-commons {
+    font-family: "Lato";
+}
+.creative-commons-license {
+    text-decoration: underline;
+}
+
+/* CREATIVE COMMONS LICENSE (CC BY-NC-ND 4.0 INTERNATIONAL) */
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: hidden;
+    margin-top: 80vh;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+}
+.service-card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.long-card {
+    width: 1055px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.long-card h3 {
+    text-align: center;
+}
+.service-content {
+    padding: 16px;
+    font-family: "Lato";
+}
+.service-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.service-content p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.long-card-disclaimer {
+    width: 1055px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.long-card-disclaimer h3 {
+    text-align: center;
+}
+
+
+/* SERVICES CARDS */
+
+.banner-area-fourth {
+    background-image: url(images/pexels-calling.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    margin-top: 15vh;
+    font-family: "Lato";
+}
+
+/* 4TH HERO/BANNER IMAGE */
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-style: hidden;
+    height: 0.1vh;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+}
+.contact-content {
+    padding: 16px;
+    font-family: "Lato";
+    color: black;
+}
+.contact-content h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.hr  {
+    width: 45%;
+}
+/* CONTACT STUFF 🤙 */
+
+.owner-root-container {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    padding-top: 0;
+    margin-right: auto;
+    padding-bottom: 0;
+    text-align: left;
+}
+.owner-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 70vh;
+}
+.owner-content {
+    margin: 32px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 24px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+}
+.name-header {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Lato";
+    color: #87A96B;
+    min-height: 32px;
+    margin-top: 16px;
+}
+.profession-header {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Lato";
+    display: flex;
+}
+.owner-text {
+    font-weight: normal;
+    line-height: 24px;
+    align-self: start;
+    font-size: 13px;
+    font-family: "Lato";
+}
+.owner-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.owner-picture {
+    background-image: url(images/mama.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: unset;
+}
+.owner-picture {
+    width: 100%;
+    height: 300px;
+    align-self: center;
+    border-radius: 4px;
+}
+.closing-greeting {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Lato";
+    min-height: 32px;
+    margin-top: 16px;
+}
+.closing-name {
+    color: #87A96B;
+    font-weight: 500;
+    font-family: "Lato";
+    font-size: 24px;
+}
+
+/* MEET THE OWNER */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* LOGO */
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .wrapper {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .banner-area-second,
+    .banner-area-third {
+        height: 60vh;
+    }
+    .banner-area-third {
+        margin-top: -46px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .banner-area-second {
+        height: 75vh;
+    }
+    .banner-area-third {
+        height: 65vh;
+        margin-top: -67px;
+    }
+    .banner-area-fourth {
+        height: 60vh;
+        margin-top: 46px;
+    }
+    .banner-area-fourth {
+        height: 65vh;
+        margin-top: 0px;
+    }
+    .hr {
+        width: 90%;
+    }
+    .wrapper {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .hr {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .hr {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hr {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hr {
+        width: 85%;
+    }
+}
+
+/* MEDIA QUERIES */
+
+@keyframes fadeIn {
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* KEYFRAMES */
